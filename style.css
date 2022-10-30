@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bg_dark :#414f8b ;
+    --bg_light :#8993be ;
+}
+body {
+    
+}
+
+.top_header {
+    background-color:var(--bg_light);
+    display: flex;
+    justify-content: space-between;
+
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 4px;
+    border-radius: 3px;
+
+}
+.link:hover {
+    color: #000;
+    background-color: #fff;
+
+}
+
+.btn {
+    background-color: var(--bg_light);
+    padding:8px 1.5rem;
+    border: 2px solid #fff;
+    margin: 1rem;
+    border-radius: 8px;
+
+}
+.bottom_header {
+    background-color: var(--bg_light); 
+    text-align: center;
+    color: #fff;
+}
