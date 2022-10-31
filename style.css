@@ -9,9 +9,9 @@ h1 {
     margin: .67em 0;
 }
 p {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
-
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: #334155;
 }
 :root {
     --bg_dark :#414f8b ;
@@ -19,6 +19,7 @@ p {
 }
 body{
     background-color: #f3f3f3;
+    
 }
 
 
@@ -66,11 +67,11 @@ body{
 .main {
     text-align: right;
 
-    margin:0 7px;
+    margin:0 1rem;
 }
 .main h1 {
     color: var(--bg_dark);
-    background-color: #fff;
+    
     border-radius: 2rem;
 }
 
