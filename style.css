@@ -53,11 +53,15 @@ body{
     text-align: center;
     color: #fff;
     border-radius: 0 0 1.5rem 1.5rem;
+    
  
 }
 
+.bottom_header p:last-child{
+    padding-bottom: 7rem;
+}
 .course_img{
-    margin:12rem 2rem;
+    margin-top: 7rem;
     width: 140px;
     height: 140px;
     border: 5px solid #fff;
