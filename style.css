@@ -133,5 +133,5 @@ body{
 
 .footer {
     height: 12rem;
-    background-color: #8993be;
+    background-color: var(--bg_light);
 }
